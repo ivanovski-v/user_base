@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-dark">
+       Users Base v1.0
+    </nav>
+
+    <form id="form_id" class="needs-validation" novalidate>
+      <div class="form-group">
+        <label for="user-name">Username:</label>
+        <input type="name" class="form-control" name="username" placeholder="John Doe" required>
+        <div class="invalid-feedback"> Please, provide a valid name! </div>
+      </div>
+      <div class="form-group">
+        <label for="user-email">Email:</label>
+        <input type="email" class="form-control" name="email" placeholder="name@site.com" required>
+        <div class="invalid-feedback"> Please, provide a valid email! </div>
+      </div>
+      <div class="form-group">
+        <label for="user-phone">User phone:</label>
+        <input type="phone" class="form-control" name="phone" placeholder="+375" required>
+        <div class="invalid-feedback"> Please, provide a valid phone! </div>
+      </div>
+      <div class="form-group">
+        <label for="user-website">Website:</label>
+        <input type="website" class="form-control" name="website">
+      </div>
+      <div class="col text-center">
+        <button class="btn btn-primary submit" type="submit">Submit form</button>
+      </div>
+    </form>
+
+    <div class="user-cards">
+
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

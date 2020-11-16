@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(19, 21, 22);
+}
+
+p {
+  margin-bottom: 0px;
+}
+
+h1 {
+  text-align: center;
+  margin: 30px;
+}
+form {
+  width: 400px;
+  margin: auto;
+  padding: 0px;
+}
+
+label {
+  color: aliceblue;
+  margin: auto;
+}
+
+nav {
+  background-color: black;
+  color: orange;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.submit,
+.card .btn {
+  background-color: orange;
+  color: black;
+  border-color: orange;
+}
+
+.submit {
+  margin-bottom: 30px;
+}
+
+.card .btn {
+  float: right;
+}
+
+.submit:hover {
+  background-color: black;
+  color: orange;
+  border-color: black;
+}
+
+.card {
+  padding: 0px;
+  margin: 20px;
+  width: 450px;
+}
